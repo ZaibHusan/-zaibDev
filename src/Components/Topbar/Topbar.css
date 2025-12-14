@@ -1,0 +1,53 @@
+.Topbar {
+    width: 100%;
+    padding: 5px 5%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.Topbar_right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.Topbar_right ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.Topbar_right ul li a:hover {
+    text-decoration: underline;
+}
+
+.Topbar_left nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Topbar_left nav img {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    filter: grayscale(50%) opacity(0.9);
+    transition: filter 0.3s ease-in-out;
+}
+
+.Topbar_left nav img:hover {
+    filter: grayscale(0%) opacity(1);
+}
+
+.Topbar img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
