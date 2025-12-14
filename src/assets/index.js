@@ -5,7 +5,6 @@ import linkedin from './linkedin.png';
 import email from './email.png';
 import iphone from './iphone.png';
 import Hero from './Hero.jpg';
-
 const assets = {
     Hero,
     zaibprofile,

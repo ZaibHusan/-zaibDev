@@ -1,20 +1,65 @@
 import React from 'react'
 import assets from '../../assets';
+import { Typewriter } from 'react-simple-typewriter';
 import './Hero.css'
 export default function Hero() {
     const services = ["E-commerce", "Business Website", "web tools"];
     return (
         <div className="Hero">
-            <div className="greeting">
-                <div className="image-continer">
-                    <img src={assets.zaibprofile} alt="" />
+            <div className="Hero-box">
+                <div className="Hero-greeting">
+                    <h1><span>Hi, I'm </span>Zaib Hussan</h1>
+                    <h2>
+                        Full-Stack Developer&nbsp;
+                        <span>
+                            <Typewriter
+                                words={[
+                                    'building modern web applications',
+                                    'solving real-world problems',
+                                    'creating responsive designs',
+                                    'mastering React & Node.js',
+                                    'turning ideas into code',
+                                    'developing scalable backend systems',
+                                    'crafting interactive user experiences'
+                                ]}
+                                loop={0}
+                                cursor
+                                cursorStyle="|"
+                                typeSpeed={70}
+                                deleteSpeed={50}
+                                delaySpeed={1000}
+                            />
+                        </span>
+                    </h2>
                 </div>
-                <h1>Hi, I’m Zaib Husan</h1>
-            </div>
-            <h2>Full-Stack Developer | Building Real Web Applications</h2>
-            <div className="Hero-button">
-                <button>Let’s Talk</button>
-                <button>Download CV</button>
+                <p className="Hero-description">I’m a self-taught full-stack developer who builds modern, responsive, and professional websites.
+                    From clean user interfaces to powerful backend systems, I create websites that are fast, reliable,
+                    and designed for real users.
+                </p>
+                <div className="Hero-cta">
+                    <button>Let's Talk</button>
+                    <button>Projects</button>
+                </div>
+                <div className="my-experience">
+                    <ul>
+                        <li>
+                            <h2>50+</h2>
+                            <p>Projects</p>
+                        </li>
+                        <li>
+                            <h2>1+</h2>
+                            <p>Years</p>
+                        </li>
+                        <li>
+                            <h2>5+</h2>
+                            <p>Happy Clients</p>
+                            
+                        </li>
+                        <li><h2>5+</h2>
+                            <p>Projects</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     )

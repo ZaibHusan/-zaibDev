@@ -1,104 +1,100 @@
-/* Hero container */
 .Hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  min-height: 100vh;
-  padding: 20px;
-  background: #f5f5f5; /* light background for white theme */
-  color: #111;
-  position: relative;
+  width: 100%;
+  height: 85vh;
+  background-image:
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.336) 0%, rgba(255, 255, 255, 0.658) 70%, rgba(255, 255, 255, 1) 100%),
+    url("../../assets/Background image.jpg");
+  background-size: cnover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 10%;
 }
 
-/* Greeting + profile image */
-.greeting {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
-}
 
-.image-continer {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  overflow: hidden;
-  margin-bottom: 15px;
-  border: 3px solid #00aaff; /* accent border */
-}
-
-.image-continer img {
+.Hero-box {
   width: 100%;
   height: 100%;
-  object-fit: cover;
-}
-
-/* Headings */
-.Hero h1 {
-  font-size: 2.5rem;
-  font-weight: 700;
-  margin-bottom: 10px;
-}
-
-.Hero h2 {
-  font-size: 1.5rem;
-  font-weight: 500;
-  margin-bottom: 30px;
-  color: #555;
-}
-
-/* Buttons */
-.Hero-button {
+  border: 1px solid red;
   display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-direction: column;
+  padding: 40px 0;
+  gap: 20px;
 }
 
-.Hero-button button {
-  padding: 12px 30px;
-  font-size: 1rem;
-  font-weight: 600;
-  border-radius: 6px;
+.Hero-greeting {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.Hero-greeting h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+.Hero-description {
+  width: 50%;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: -0.4px;
+  padding-left: 10px;
+}
+
+.Hero-cta {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid red;
+  padding: 0 20px;
+
+}
+
+.Hero-cta button {
+  padding: 10px 20px;
   border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.4px;
   cursor: pointer;
-  transition: all 0.3s ease;
 }
 
-.Hero-button button:first-child {
-  background-color: #00aaff;
-  color: #fff;
+.Hero-cta button:first-child {
+  background-color: #18181B;
+  color: #FFFFFF;
 }
 
-.Hero-button button:first-child:hover {
-  background-color: #0088cc;
+.Hero-ctab button:last-child {
+  background-color: #FFFFFF;
+  color: #18181B;
 }
 
-.Hero-button button:last-child {
-  background-color: transparent;
-  border: 2px solid #00aaff;
-  color: #00aaff;
+
+
+.my-experience {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex: 1;
 }
 
-.Hero-button button:last-child:hover {
-  background-color: #00aaff;
-  color: #fff;
+.my-experience ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  padding: 10px 20px;
+  background-color: #F1F0F1;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0,0,0, 0.1);
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .Hero h1 {
-    font-size: 2rem;
-  }
-
-  .Hero h2 {
-    font-size: 1.2rem;
-  }
-
-  .image-continer {
-    width: 120px;
-    height: 120px;
-  }
+.my-experience ul li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
 }
