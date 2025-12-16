@@ -4,7 +4,7 @@
   background-image:
     linear-gradient(to bottom, rgba(255, 255, 255, 0.336) 0%, rgba(255, 255, 255, 0.658) 70%, rgba(255, 255, 255, 1) 100%),
     url("../../assets/Background image.jpg");
-  background-size: cnover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   padding: 0 10%;
