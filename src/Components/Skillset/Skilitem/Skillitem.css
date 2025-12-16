@@ -1,0 +1,49 @@
+.skillitem {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skillitem img {
+    width: 40px;
+    height: 40px;
+}
+
+.Skill-graph {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.graph-upper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graph-upper p:first-child {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.graph-lower {
+    width: 100%;
+    height: 10px;
+    background-color: #e0e0e0; /* light gray background */
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+}
+
+.graph-lower .fill {
+    width: 50%; /* skill percentage */
+    height: 100%;
+    background: linear-gradient(90deg, #695DD9, #8C6EFF); /* gradient color */
+    border-radius: 5px;
+    transition: width 1s ease-in-out; /* smooth animation */
+}

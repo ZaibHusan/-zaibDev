@@ -1,0 +1,56 @@
+.Projectcard {
+    width: 370px;
+    height: 400px;
+    background-color: #F3F4F6;
+}
+
+.Project-banner {
+    width: 100%;
+    height: 45%;
+    background-color: aqua;
+}
+
+.Project-banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Project-description {
+    padding: 20px 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+
+.Project-technology {
+    padding: 0 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.Project-technology p {
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+.Project-demo {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.Project-demo button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #18181B;
+    color: white;
+}

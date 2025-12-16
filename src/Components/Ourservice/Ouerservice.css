@@ -1,0 +1,34 @@
+.Ourservice {
+    width: 100%;
+    padding:0 5%;
+    padding-top:  50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Service-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000ec;
+}
+
+.Service-title span:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000ec;
+}
+
+.Service-card {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 350px));
+   align-items: center;
+   justify-content: center;
+   gap: 20px;
+}

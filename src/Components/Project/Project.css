@@ -1,0 +1,28 @@
+.Project {
+    width: 100%;
+  
+    padding: 20px 5%;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.Project-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Project-card {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-y: auto;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
