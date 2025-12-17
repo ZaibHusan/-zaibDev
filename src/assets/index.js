@@ -15,7 +15,11 @@ import Authentication from './authentication.png';
 import MongoDB from './mongo-db.png';
 import frontEnd from './front-end.png';
 import background from './Background image.jpg';
+import sidebar from './sidebar.png';
+import close from './closenav.png';
 const assets = {
+  close,
+  sidebar,
   background,
   frontEnd,
   html,
