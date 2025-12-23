@@ -27,8 +27,16 @@
 .Service-card {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 350px));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
    align-items: center;
    justify-content: center;
    gap: 20px;
+}
+
+
+
+@media (max-width: 800px) {
+    .Service-card {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
 }

@@ -19,7 +19,7 @@ export default function Footer() {
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <ul>
+                <ul className='flex-start'>
                     {/* Lets give title to these? */}
                     <h2>Contact</h2>
                     <li><a href="mailto:husanzaibllc@gmail.com"> <img src={assets.email} alt="" />husanzaibllc@gmail.com </a></li>

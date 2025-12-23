@@ -2,6 +2,8 @@
     width: 370px;
     height: 400px;
     background-color: #F3F4F6;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0,0,0, 0.1);
 }
 
 .Project-banner {
@@ -53,4 +55,43 @@
     outline: none;
     background-color: #18181B;
     color: white;
+}
+
+/* lets make the website responsive */
+
+@media (max-width: 1100px) {
+
+    .Project-description {
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .Projectcard {
+        width: 300px;
+        height: 350px;
+    }
+
+    .Project-description {
+        padding: 10px 10px;
+        font-size: 0.8rem;
+    }
+
+    .Project-technology {
+        padding: 0 10px;
+    }
+
+    .Project-demo {
+        padding: 10px 10px;
+    }
+
+
+}
+
+@media (max-width: 700px) {
+
+    .Projectcard {
+        width: 100%;
+    }
 }

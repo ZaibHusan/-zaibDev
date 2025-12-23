@@ -14,7 +14,6 @@
 .Hero-box {
   width: 100%;
   height: 100%;
-
   display: flex;
   flex-direction: column;
   padding: 40px 0;
@@ -25,13 +24,21 @@
 
   display: flex;
   flex-direction: column;
-  
+
 }
 
 .Hero-greeting h1 {
   font-size: 3.5rem;
   font-weight: 700;
   letter-spacing: -0.4px;
+  white-space: nowrap;
+}
+
+.Hero-greeting h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  white-space: nowrap;
 }
 
 .Hero-description {
@@ -40,6 +47,8 @@
   font-weight: 400;
   letter-spacing: -0.4px;
   padding-left: 10px;
+  color: #18181B;
+
 }
 
 .Hero-cta {
@@ -88,7 +97,7 @@
   padding: 10px 20px;
   background-color: #F1F0F1;
   border-radius: 10px;
-  box-shadow: 0px 4px 12px rgba(0,0,0, 0.1);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 .my-experience ul li {
@@ -97,4 +106,153 @@
   justify-content: center;
   align-items: center;
   padding: 0 20px;
+}
+
+
+/* lts make the website responsive */
+
+/* lets make the website responsive */
+
+@media (max-width: 1000px) {
+
+  .Hero {
+    height: 80vh;
+  }
+
+  .Hero-greeting h1 {
+    font-size: 3rem;
+  }
+
+  .Hero-greeting h2 {
+    font-size: 1.6rem;
+  }
+
+  .Hero-description {
+    font-size: 1.05rem;
+  }
+
+  .Hero-cta button {
+    font-size: 1.05rem;
+  }
+
+  .my-experience {
+    margin-top: 20px;
+  }
+}
+
+
+@media (max-width: 800px) {
+  .Hero {
+    height: 90vh;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Hero-box {
+    align-items: center;
+    gap: 24px;
+    padding-top: 80px;
+  }
+
+  .Hero-greeting {
+    text-align: center;
+    white-space: normal; /* smooth text wrapping */
+  }
+
+  .Hero-greeting h1 {
+    font-size: 3.2rem;
+  }
+
+  .Hero-greeting h2 {
+    font-size: 1.4rem;
+  }
+
+  .Hero-description {
+    width: 90%;
+    font-size: 1.1rem;
+    padding: 0;
+    margin-top: 16px;
+  }
+
+  .Hero-cta {
+    width: 100%;
+    justify-content: center;
+    margin-top: 16px;
+  }
+
+  .Hero-cta button {
+    padding: 10px 44px;
+  }
+
+  .my-experience {
+    margin-top: 24px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .Hero-greeting h1 {
+    font-size: 2.9rem;
+  }
+
+  .Hero-greeting h2 {
+    font-size: 1.2rem;
+  }
+
+  .Hero-description {
+    font-size: 1rem;
+  }
+
+  .my-experience ul {
+    padding: 10px 12px;
+  }
+}
+
+
+/* phone screen */
+
+@media (max-width: 500px) {
+.Hero {
+    height: 80vh;
+  }
+  .Hero-box {
+    gap: 12px;
+  }
+
+  .Hero-greeting h1 {
+    font-size: 2.4rem;
+  }
+
+  .Hero-greeting h2 {
+    font-size: 1.05rem;
+  }
+
+  .Hero-cta {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .Hero-cta button {
+    padding: 5px 50px;
+    font-size: 1rem;
+  }
+
+  .my-experience ul {
+    padding: 5px 0px;
+    gap: 12px;
+  }
+
+  .my-experience ul li {
+    padding: 0 10px;
+  }
+
+  .my-experience ul li p,
+  .my-experience ul li span {
+    font-size: 0.8rem;
+  }
+ .my-experience ul li h2 {
+    font-size: 1.1rem;
+  }
 }

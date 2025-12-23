@@ -14,13 +14,13 @@ export default function Hero() {
                         <span>
                             <Typewriter
                                 words={[
-                                    'building modern web applications',
-                                    'solving real-world problems',
-                                    'creating responsive designs',
-                                    'mastering React & Node.js',
-                                    'turning ideas into code',
-                                    'developing scalable backend systems',
-                                    'crafting interactive user experiences'
+                                    "building web apps",
+                                    "solving problems",
+                                    "responsive design",
+                                    "React & Node.js",
+                                    "ideas into code",
+                                    "scalable backends",
+                                    "great UX"
                                 ]}
                                 loop={0}
                                 cursor
@@ -31,6 +31,7 @@ export default function Hero() {
                             />
                         </span>
                     </h2>
+
                 </div>
                 <p className="Hero-description">I’m a self-taught full-stack developer who builds modern, responsive, and professional websites.
                     From clean user interfaces to powerful backend systems, I create websites that are fast, reliable,
@@ -53,7 +54,7 @@ export default function Hero() {
                         <li>
                             <h2>5+</h2>
                             <p>Happy Clients</p>
-                            
+
                         </li>
                         <li><h2>5+</h2>
                             <p>Projects</p>

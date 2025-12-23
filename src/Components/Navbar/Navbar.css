@@ -17,6 +17,10 @@
 
 }
 
+.Navbar_menu img {
+    width: 20px;
+    height: 20px;
+}
 
 .Navbar_left {
     display: flex;

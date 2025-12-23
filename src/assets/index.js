@@ -45,7 +45,7 @@ export const frontendSkills = [
 export const backendSkills = [
   { name: "Node.js", percent: 90, image: Nodejs },
   { name: "Express.js", percent: 80, image: Expressjs },
-  { name: "Authentication & Authorization", percent: 70, image: Authentication },
+  { name: "Auth & Authorization", percent: 70, image: Authentication },
   { name: "MongoDB", percent: 95, image: MongoDB },
 ];
 

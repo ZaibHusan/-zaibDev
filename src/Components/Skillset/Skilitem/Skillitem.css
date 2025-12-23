@@ -47,3 +47,19 @@
     border-radius: 5px;
     transition: width 1s ease-in-out; /* smooth animation */
 }
+
+
+
+/* lets make the website responsive
+ */
+
+ @media (max-width: 800px) {
+    .skillitem img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+   
+}
