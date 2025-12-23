@@ -34,18 +34,22 @@
 .graph-lower {
     width: 100%;
     height: 10px;
-    background-color: #e0e0e0; /* light gray background */
+    background-color: #e0e0e0;
+    /* light gray background */
     border-radius: 5px;
     overflow: hidden;
     position: relative;
 }
 
 .graph-lower .fill {
-    width: 50%; /* skill percentage */
+    width: 50%;
+    /* skill percentage */
     height: 100%;
-    background: linear-gradient(90deg, #695DD9, #8C6EFF); /* gradient color */
+    background: linear-gradient(90deg, #695DD9, #8C6EFF);
+    /* gradient color */
     border-radius: 5px;
-    transition: width 1s ease-in-out; /* smooth animation */
+    transition: width 1s ease-in-out;
+    /* smooth animation */
 }
 
 
@@ -53,13 +57,19 @@
 /* lets make the website responsive
  */
 
- @media (max-width: 800px) {
+@media (max-width: 800px) {
     .skillitem img {
         width: 30px;
         height: 30px;
     }
 }
 
-@media (max-width: 600px) {
-   
+@media (max-width: 500px) {
+    .skillitem {
+        gap: 10px;
+    }
+
+    .graph-upper p:first-child {
+        font-weight: 600;
+    }
 }
